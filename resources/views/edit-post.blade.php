@@ -8,6 +8,7 @@
 
 </head>
 <body>
+    <header>CHATTER</header>
     <h1 id="editTitle">Edit Post</h1>
     <form id="edtit" action="/edit-post/{{$post->id}}" method="POST">
     @csrf

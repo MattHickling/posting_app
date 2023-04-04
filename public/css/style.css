@@ -3,6 +3,20 @@ body {
     font-family: Arial, sans-serif;
     font-size: 16px;
   }
+
+  header {
+    font-weight: bold;
+    color: hwb(0 100% 0%);
+    background-color: hsl(196, 76%, 39%);
+    margin: 1rem 0;
+    height: 60px;
+    text-align: center;
+  }
+
+  .chatter{
+    font-size: 3rem;
+    margin-top: 20px;
+  }
   
   h1 {
     color: #444;
@@ -175,7 +189,9 @@ body {
     color: #007bff;
   }
   
-  
+  .logged{
+    font-size: 1rem;
+  }
   @media (max-width: 768px) {
     form {
       display: flex;

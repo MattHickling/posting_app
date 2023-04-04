@@ -8,9 +8,9 @@
 
 </head>
 <body>
-
+    <header><span class="chatter">CHATTER</span></header>
     @auth
-    <p>Congrats you have logged in.</p>
+    <p class="logged">Congrats you have logged in.</p>
     <form action="/logout" method="post">
         @csrf
         <button class="logout">Log out</button>
