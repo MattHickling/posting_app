@@ -1,0 +1,205 @@
+body {
+    background-color: #88c0e7;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  h1 {
+    color: #444;
+    font-size: 32px;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  h2 {
+    color: #777;
+    font-size: 24px;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  input[type="text"], textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  #editTitle {
+    color: #444;
+  }
+  
+  #saveBtn {
+    margin-top: 20px;
+  }
+  
+  #createInput {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #allPostsTitle {
+    font-size: 24px;
+  }
+  
+  #allPostsBody {
+    margin-bottom: 20px;
+    background-color: #fdffff;
+  }
+
+  .post-body {
+    border: 1px solid #007bff;
+    background-color: #f0f0f0;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .post-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .post-buttons a {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-decoration: none;   
+  }
+  
+  .post-buttons button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .post-buttons a,
+  .post-buttons button {
+    margin: 5px;
+    /* height: auto; */
+    /* min-width: 100px; */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .post-buttons a {
+    background-color: #007bff;
+    color: #fff;
+    height: 18px;
+    width: 42px;
+  }
+  
+  .post-buttons button {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+
+
+  #editBtn {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  #editBtn:hover {
+    background-color: #3e8e41;
+  }
+  
+  #delete button {
+    background-color: #f44336;
+    margin-left: 10px;
+  }
+  
+  #delete button:hover {
+    background-color: #da190b;
+  }
+  
+  span{
+    font-size: 1rem;
+  }
+
+  form input[type="password"] {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 50%;
+    box-sizing: border-box;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 200px; /* adjust this value as needed */
+  }
+
+  .logout{
+    background-color: rgb(255, 255, 255);
+    color: #007bff;
+  }
+  
+  
+  @media (max-width: 768px) {
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    form button {
+      margin-top: 10px;
+    }
+    form input[type="password"] {
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      input[type="text"], textarea {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        padding: 10px;
+        margin-bottom: 20px;
+        width: 100%;
+      }
+  }
+  
