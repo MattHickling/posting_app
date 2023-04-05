@@ -4,6 +4,9 @@
     </IfModule>
 
     RewriteEngine On
+    RewriteCond %{HTTP_HOST} ^chatter.matthewhickling.co.uk$
+    RewriteCond %{REQUEST_URI} !^/chatter/
+    RewriteRule ^(.*)$ /chatter/$1 [L]
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .

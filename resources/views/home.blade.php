@@ -6,6 +6,7 @@
     <title>Posting App</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
+ 
 </head>
 <body>
     <header><span class="chatter">CHATTER</span></header>
